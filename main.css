@@ -1,0 +1,134 @@
+/* CSS */
+title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: black;
+    padding: 2px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 8px rgb(255, 255, 255), 0 0 25px rgb(239, 239, 248), 0 0 14px rgb(255, 255, 255);
+    color: black;
+    font-size: 40px;
+}
+
+header {
+    background-image: url('Chicago Christmas 2021/HomeChristmasDecor.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 29px;
+    font-size: 30px;
+    text-shadow: 1px 1px 8px rgb(255, 255, 255), 0 0 25px rgb(239, 239, 248), 0 0 14px rgb(255, 255, 255);
+}
+
+div {
+    border-style: solid;
+    border-color: rgb(40, 91, 110);
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    object-fit: contain;
+    object-position: center;
+    padding: 5px;
+    
+}  
+
+body {
+    background-color: rgb(174, 205, 247);
+}
+
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+}
+
+.flex-container-1 {
+    flex: 33%;
+    padding: auto;
+}
+
+.flex-container-2 {
+    flex: 33%;
+}
+
+.flex-container-3 {
+    flex: 33%;
+}
+
+.flex-container-4 {
+    flex: 100%;
+} 
+
+iframe {
+    flex: 100%;
+    align-content: center;
+}
+
+.fa {
+    padding: 5px;
+    width: 30px;
+    margin: 5px 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: .6;
+}
+
+/* Envelope img */
+.fa-envelope {
+    color: rgb(30, 60, 71)
+}
+
+/* Facebook img */
+.fa-facebook {
+    background: rgb(0, 17, 110);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Instagram img */
+.fa-instagram {
+    background: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 641px) {
+    .sm-1, .sm-2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    img {
+        width: 400px;
+        object-fit: scale-down;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 350px){
+    iframe {
+        width: 400px;
+        flex: 100%;
+    }
+}

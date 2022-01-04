@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: ghostwhite;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    color: ghostwhite;
+}
+
+h2 {
+    text-align: center;
+    color: ghostwhite;
+    padding: 10rem;
+}
+
+/* Table class */
+.Top_10 {
+    width: 100%;
+}
+/* /Table class */
+
+table, td {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+th, td {
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 238, 165, 0.767);
+}
+
+body {
+    background: rgb(4, 4, 99);
+}
+
+table {
+    background: rgb(10, 30, 71);
+}
+
+tr {
+    text-align: center;
+}
+
+/* Images */
+.fa {
+    padding: 5px;
+    width: 30px;
+    margin: 5px 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: .7;
+    transform: scale(1.1);
+}
+
+/* Envelope img/ email */
+.fa-envelope {
+    color: ghostwhite;
+}
+
+.email {
+    color: rgba(247, 238, 165, 0.767)
+}
+
+.fa-envelope:hover {
+    transform: scale(1.0);
+    opacity: 1;
+}
+
+.email:hover {
+    background: rgba(20, 37, 20, 0.685);
+    transform: scale(.5);
+}
+
+/* Facebook img */
+.fa-facebook {
+    background: rgb(0, 17, 110);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Instagram img */
+.fa-instagram {
+    background: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+    text-decoration: none;
+}
+/* /Images */
